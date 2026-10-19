@@ -1,0 +1,22 @@
+{
+  "name": "procedural-night-sky",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node tests/verify.mjs",
+    "export": "node scripts/export.mjs",
+    "export:reel": "node scripts/export-reel.mjs"
+  },
+  "dependencies": {
+    "p5": "1.11.11",
+    "webm-muxer": "^5.1.4"
+  },
+  "devDependencies": {
+    "playwright": "1.56.1",
+    "vite": "^6.4.4"
+  }
+}
